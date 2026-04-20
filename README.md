@@ -11,9 +11,9 @@ conda activate HYZ
 python check_env.py
 
 ## 📁 项目结构
+
+```bash
 .
-├── README.md
-...
 ├── README.md
 ├── check_env.py
 ├── conflict_analysis.md
@@ -23,6 +23,7 @@ python check_env.py
 ├── requirements_fixed.txt
 └── logs/
     └── install_failed.log
+```
 
 
 
