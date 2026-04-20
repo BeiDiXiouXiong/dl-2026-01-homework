@@ -1,0 +1,12 @@
+# Intentionally broken dependency file for the Conda environment rescue task.
+
+sklearn==0.0
+numpy==1.26.4
+numba==0.56.4
+pandas==2.2.2
+tensorflow==2.10.0
+torch==2.2.0
+torchvision==0.10.0
+opencv-python==4.5.5.64
+matplotlib==3.8.4
+jupyter==1.0.0

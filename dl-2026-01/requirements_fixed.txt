@@ -1,0 +1,9 @@
+numpy==1.23.5
+pandas==2.2.2
+matplotlib==3.8.4
+opencv-python==4.5.5.64
+scikit-learn
+jupyter
+
+torch==2.2.0
+torchvision==0.17.0
