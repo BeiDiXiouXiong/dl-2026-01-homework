@@ -1,17 +1,5 @@
 # Conda 深度学习环境排障作业
 
-## 1. 创建环境
-
-```bash
-conda env create -f environment_fixed.yml
-```
-
-conda activate HYZ
-
-python check_env.py
-
-## 📁 项目结构
-
 ```bash
 .
 ├── README.md
@@ -24,6 +12,9 @@ python check_env.py
 └── logs/
     └── install_failed.log
 ```
+## 作业提交人信息
 
+- **姓名**：黄彦泽
+- **学号**：120253505021
 
 
