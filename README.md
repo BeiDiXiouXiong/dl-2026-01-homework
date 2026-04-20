@@ -13,6 +13,8 @@ python check_env.py
 ## 📁 项目结构
 .
 ├── README.md
+...
+├── README.md
 ├── check_env.py
 ├── conflict_analysis.md
 ├── fix_strategy.md
@@ -21,3 +23,6 @@ python check_env.py
 ├── requirements_fixed.txt
 └── logs/
     └── install_failed.log
+
+
+
