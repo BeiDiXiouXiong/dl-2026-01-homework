@@ -1,7 +1,20 @@
 # 依赖冲突分析报告（conflict_analysis.md）
 
 ---
+## 一、实验环境与报错复现
+使用 Conda 创建 Python 3.11 环境后，执行以下命令安装依赖：
 
+`pip install -r requirements_broken.txt`
+
+环境创建并激活成功:
+
+![环境激活成功截图](logs/1_activated_env.png)
+
+安装过程出现依赖解析失败（ResolutionImpossible），报错如下:
+
+![安装失败报错截图](logs/2_install_error.png)
+
+---
 ## 问题 1：`numba` 与 `numpy` 版本硬冲突（依赖版本约束冲突）
 - **原因分析**：
   `numba==0.56.4` 对 `numpy` 存在严格版本限制，要求 `numpy < 1.24`；但 `requirements_broken.txt` 中强制指定了 `numpy==1.26.4`，两者的版本区间无交集，导致 pip 无法找到同时满足两者的版本组合。
