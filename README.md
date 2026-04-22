@@ -8,11 +8,11 @@
 
 环境创建并激活成功:
 
-![环境激活成功截图](logs/1_activated_env.png)
+![环境激活成功截图](screenshots/1_activated_env.png)
 
 安装过程出现依赖解析失败（ResolutionImpossible），报错如下:
 
-![安装失败报错截图](logs/2_install_error.png)
+![安装失败报错截图](screenshots/2_install_error.png)
 
 ---
 ## 问题 1：`numba` 与 `numpy` 版本硬冲突（依赖版本约束冲突）
